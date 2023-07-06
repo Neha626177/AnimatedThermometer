@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@100&family=Josefin+Sans&family=Jost:ital,wght@1,300&family=Mulish:wght@500&family=Poppins:wght@100;300;500&family=Raleway:wght@100;300;400&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outerdiv {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2a364f;
+  display: flex;
+  place-items: center;
+}
+.innerdiv {
+  width: 80vw;
+  height: 70vh;
+  display: grid;
+  place-items: center;
+}
+.main-heading {
+  padding: 30px;
+  color: #fff;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.5);
+  font-size: 130px;
+  font-family: "Raleway", sans-serif;
+ 
+}
+.fa{
+    font-size: 150px;
+}
+@media (max-width:768px) {
+    .main-heading {
+  font-size: 50px;
+  padding-right: 0;
+
+}
+.outerdiv {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #2a364f;
+  display: flex;
+  place-items: center; */
+}
+.fa{
+    font-size: 70px;
+   /* padding-left: 50px; */
+}
+    
+}
+@media (max-width:480){
+    .main-heading{
+        font-size: medium;
+    }
+ 
+}
